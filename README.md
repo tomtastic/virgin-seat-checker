@@ -2,6 +2,7 @@ Check the Virgin Atlantic 'seat-checker-api' for available upgrades for a given 
 Useful if you want to use your points to upgrade an eligable flight.
 
 ### Usage
+
 ```shell
 $ ./virgin.sh
 Get premium seat upgrade availability on Virgin Atlantic flights
@@ -10,6 +11,7 @@ eg   : $0 SEA    LHR  2023-11-18
 ```
 
 ### Example - lack of availability
+
 ```shell
 $ ~/src/virgin.sh LHR SEA 2023-11-23
 [+] Checking Virgin reward-seat-checker-api for LHR -> SEA on 2023-11-23
@@ -26,7 +28,8 @@ $ ~/src/virgin.sh LHR SEA 2023-11-23
 [!] No premium seats available
 ```
 
-### Example - available upgrade and link to 'chat to agent' for upgrade with points.
+### Example - available upgrade and link to 'chat to agent' for upgrade with points
+
 ```shell
 $ ~/src/virgin.sh LHR SEA 2024-03-01
 [+] Checking Virgin reward-seat-checker-api for LHR -> SEA on 2024-03-01
